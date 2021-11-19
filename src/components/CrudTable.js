@@ -9,7 +9,7 @@ const CrudTable = ({ data, setDataToEdit, deleteData }) => {
         <thead>
           <tr>
             <th>Nombre</th>
-            <th>Constelación</th>
+            <th>Email</th>
             <th>Acciones</th>
           </tr>
         </thead>

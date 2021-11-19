@@ -1,0 +1,39 @@
+{
+  "personal": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "email": "juanprueba1@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Diego",
+      "email": "diegoprueba2@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Tiziano",
+      "email": "tizianoprueba3@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Oliver",
+      "email": "oliverprueba4@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Juanita",
+      "email": "juanitaprueba5@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Aixa",
+      "email": "aixaprueba6@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Agustina",
+      "email": "agustinaprueba7@gmail.com"
+    }
+  ]
+}

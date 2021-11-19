@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const initailForm = {
   name: "",
-  constellation: "",
+  email: "",
   id: null,
 };
 
@@ -27,7 +27,7 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!form.name || !form.constellation) {
+    if (!form.name || !form.email) {
       alert("Datos incompletos");
       return;
     }
@@ -59,10 +59,10 @@ const CrudForm = ({ createData, updateData, dataToEdit, setDataToEdit }) => {
         />
         <input
           type="text"
-          name="constellation"
-          placeholder="Constelación"
+          name="email"
+          placeholder="Email"
           onChange={handleChange}
-          value={form.constellation}
+          value={form.email}
         />
         <input type="submit" value="Enviar" />
         <input type="reset" value="Limpiar" onClick={handleReset} />
